@@ -14,8 +14,8 @@ data class MediaItem(
 fun getMedia() = (1..10).map {
     MediaItem(
         id = it,
-        title = "Title $it",
-        thumb = "https://loremflickr.com/400/400/cat?lock=$it",
+        title = "Pádel $it",
+        thumb = "https://loremflickr.com/400/400/padel?lock=$it",
         type = if (it % 3 == 0) Type.VIDEO else Type.PHOTO
     )
 }
